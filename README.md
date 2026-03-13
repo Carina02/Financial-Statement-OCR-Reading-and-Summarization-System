@@ -21,7 +21,7 @@ pip install langgraph langchain langchain-openai langchain-community azure-ai-do
 ```bash
 export OPENAI_API_KEY="sk-..."
 ```
-# Azure Document Intelligence 凭证 (用于复杂版面与表格提取)
+### Azure Document Intelligence 凭证 (用于复杂版面与表格提取)
 ```bash
 export AZURE_DOCUMENT_INTELLIGENCE_ENDPOINT="https://<your-resource-name>[.cognitiveservices.azure.com/](https://.cognitiveservices.azure.com/)"
 export AZURE_DOCUMENT_INTELLIGENCE_KEY="<your-azure-key>"
