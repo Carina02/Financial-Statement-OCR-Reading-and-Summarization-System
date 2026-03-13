@@ -8,6 +8,7 @@
 * **确定性版面还原**：采用 Azure AI Document Intelligence (`prebuilt-layout`)，将复杂表格精准映射为 Markdown 格式，消除大模型直接读取 PDF 的视觉幻觉。
 * **闭环自修正机制 (Self-Correction)**：在发现财务等式（如资产负债表配平）存在逻辑断层时，系统会自动将错误上下文抛回给 LLM 进行修正，最多重试 3 次，超过阈值则触发熔断并转交人工审核。
 * **强类型输出约束**：通过 Pydantic 约束 LLM 结构化输出（Structured Output），确保最终导出的字典列表与 Excel 表格零格式异常。
+<img width="7820" height="4955" alt="Azure Logic Audit and-2026-03-13-120443" src="https://github.com/user-attachments/assets/bb360ae8-199e-4b96-8d4a-8d2bab208588" />
 
 ## 环境依赖与配置
 
